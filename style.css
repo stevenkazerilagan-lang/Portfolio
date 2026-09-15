@@ -424,3 +424,33 @@ h1, h2, h3{
         grid-template-columns: 1fr;
     }
 }
+
+
+/* ===== Contacts Styling ===== */
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    color: #eef1f5;
+    font-size: 1.05rem;
+    width: fit-content;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-item i {
+    font-size: 1.4rem;
+    color: cornflowerblue;
+}
+
+.contact-item:hover {
+    color: cornflowerblue;
+    transform: translateX(5px);
+}
