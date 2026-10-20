@@ -16,7 +16,7 @@
 <body>
 <header class="header">
     <a href="#" class="logo">
-        <span class="logo-tag">&lt;</span>KAZER<span class="logo-tag">/&gt;</span>
+        KAZER
     </a>
 
     <ul class="nav-links">
@@ -44,23 +44,30 @@
 <main>
 
     <section class="about" id="about">
-        <div class="about-photo">
-            <div class="photo-frame">
-                <img src="image.jfif" alt="Steven Kazer A. Ilagan" onerror="this.style.display='none'">
-                <i class="fa-duotone fa-solid fa-user photo-fallback"></i>
-            </div>
-        </div>
+        <div class="about-inner">
+            <div class="about-content">
+                <h1 class="about-name">Steven Kazer<br>A. Ilagan</h1>
 
-        <div class="about-text">
-            <p class="eyebrow">About Me</p>
-            <h1>Steven Kazer A. Ilagan</h1>
-            <p class="role">BSIT Student</p>
-            <p class="about-desc">
-                I'm a BSIT student who enjoys figuring out how things work by building them.
-                Right now I'm focused on strengthening my foundations in programming and web
-                development, one project at a time — steadily building my skills toward
-                becoming a well-rounded developer.
-            </p>
+                <p class="role">BSIT STUDENT / WEB DEVELOPER</p>
+
+                <p class="about-desc">
+                    Hi, I'm Steven — a BSIT student who enjoys figuring out how things work
+                    by building them. Right now I'm focused on strengthening my foundations
+                    in programming and web development, one project at a time.
+                </p>
+
+                <div class="about-actions">
+                    <a href="#projects" class="btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contacts" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="about-photo">
+                <div class="photo-frame">
+                    <img src="image.jfif" alt="Steven Kazer A. Ilagan" onerror="this.style.display='none'">
+                    <i class="fa-duotone fa-solid fa-user photo-fallback"></i>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -108,9 +115,20 @@
     </section>
 
     <section class="projects" id="projects">
-        <p class="eyebrow">Coming Soon</p>
+        <p class="eyebrow">What I've Built</p>
         <h2>Projects</h2>
-        <p class="section-note">I'm currently working on my first projects — this space will showcase them soon.</p>
+
+        <div class="projects-grid">
+            <a href="Registration.html" class="project-card">
+                <div class="project-icon">
+                    <i class="fa-duotone fa-solid fa-clipboard-list"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Project Registration Form</h3>
+                    <span class="project-link">View form <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
     </section>
 
     <section class="contacts" id="contacts">
