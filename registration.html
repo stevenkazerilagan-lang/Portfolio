@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Registration Form | Steven Kazer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css">
+</head>
+<body>
+<header class="header">
+    <a href="main.html" class="logo">
+        KAZER
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="main.html#about">About</a></li>
+        <li><a href="main.html#learning">Learning</a></li>
+        <li><a href="main.html#projects">Projects</a></li>
+        <li><a href="main.html#contacts">Contacts</a></li>
+    </ul>
+
+    <i class="fa-duotone fa-solid fa-bars" id="menu-icon"></i>
+</header>
+
+<main class="form-page">
+    <div class="form-card">
+        <form class="reg-form">
+            <label> Full name:</label>
+            <input type="text"> <br><br>
+
+            <label> Enail:</label>
+            <input type="email"> <br><br>
+
+            <label> Password:</label>
+            <input type="password"> <br><br>
+
+            <label> Gender:</label>
+            <label> male</label>
+            <input type="radio" name="gender">
+            <label> female</label>
+            <input type="radio" name="gender">
+            <br> <br>
+
+            <label> Areas of Interest:</label> <br> <br>
+            <input type="checkbox"> <label> Web Development</label> <br> <br>
+            <input type="checkbox"> <label> UI/UX Design </label>
+            <br> <br>
+
+
+            <label> Country:</label>
+            <select>
+                <option> Select your country</option>
+                <option value="US">United States</option>
+                <option value="PH">Philippines</option>
+                <option value="CA">Canada</option>
+                <option value="GB">United Kingdom</option>
+                <option value="AU">Australia</option>
+                <option value="IN">India</option>
+                <option value="SG">Singapore</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="JP">Japan</option>
+                <option value="KR">South Korea</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+                <option value="BR">Brazil</option>
+                <option value="MX">Mexico</option>
+                <option value="SA">Saudi Arabia</option>
+            </select>
+            <br><br>
+
+
+            <label> Message</label> <br>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us why you'd like to partner with us on this project. ..."></textarea>
+        </form>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
